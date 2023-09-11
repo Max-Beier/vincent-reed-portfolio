@@ -17,7 +17,7 @@
 
       <img
         draggable="false"
-        class="vhs-box sm:w-96 md:w-8/12 mt-40 select-none pointer-events-none border-solid border-white border-4"
+        class="vhs-box sm:w-96 md:w-8/12 mt-40 select-none pointer-events-none"
         src={BackgroundMedia}
         alt="Background media"
       />
