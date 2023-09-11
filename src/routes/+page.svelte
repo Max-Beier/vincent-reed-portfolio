@@ -14,9 +14,10 @@
     <div class="h-screen w-8/12 flex flex-col items-center">
       <h1 class="vhs text-3xl">Vincent Reed</h1>
       <h3 class="vhs text-lg">Head of Shredding Scythe Productions</h3>
+
       <img
         draggable="false"
-        class="sm:w-96 md:w-8/12 mt-40 select-none pointer-events-none"
+        class="vhs-box sm:w-96 md:w-8/12 mt-40 select-none pointer-events-none border-solid border-white border-4"
         src={BackgroundMedia}
         alt="Background media"
       />
