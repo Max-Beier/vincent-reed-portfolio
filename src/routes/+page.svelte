@@ -7,14 +7,19 @@
   <title>Vincent Reed</title>
 </svelte:head>
 
-<main class="flex justify-center items-center flex-col">
-  <div class="h-screen w-screen flex justify-center items-center flex-col">
-    <h1 class="vhs text-9xl">Vincent Reed</h1>
-    <h2 class="vhs text-4xl">Head of Shredding Scythe Productions</h2>
-    <img class="w-8/12" src={BackgroundMedia} alt="Background media" />
-  </div>
-  <div class="h-screen w-screen flex justify-center items-center flex-col">
-    <h1 class="vhs text-4xl">About Me</h1>
-    <h1 class="vhs text-4xl">Contact</h1>
+<main class="flex flex-col items-center mt-5">
+    <div class="w-full h-full flex flex-col justify-center items-center text-center">
+      <div class="h-screen w-8/12 flex flex-col items-center">
+      <h1 class="vhs text-3xl">Vincent Reed</h1>
+      <h3 class="vhs text-2xl">Head of Shredding Scythe Productions</h3>
+      <img class="w-8/12 mt-36" src={BackgroundMedia} alt="Background media"/>  
+    </div>
+
+    <div class="h-screen w-8/12 flex flex-col items-center">
+      <h2 class="vhs text-3xl mt-5">About Me</h2>
+      <p class="vhs text-lg">-</p>
+      <h2 class="vhs text-3xl">Experience</h2>
+      <p class="vhs text-lg">-</p>
+    </div>
   </div>
 </main>
