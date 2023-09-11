@@ -1,5 +1,5 @@
 <script lang="ts">
-  import BackgroundMedia from "$lib/media/homevideo.mp4";
+  import Video from "$lib/media/homevideo.mp4";
 </script>
 
 <svelte:head>
@@ -14,7 +14,7 @@
       <div class="fixed w-full bg-black bg-opacity-50" />
 
       <!-- svelte-ignore a11y-media-has-caption -->
-      <video class="h-full w-full" src={BackgroundMedia} autoplay loop />
+      <video class="h-full w-full" src={Video} autoplay loop />
     </div>
 
     <div class="h-screen w-8/12 flex flex-col items-center">
