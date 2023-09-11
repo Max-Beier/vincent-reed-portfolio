@@ -8,11 +8,17 @@
 </svelte:head>
 
 <main class="flex flex-col items-center mt-5">
-    <div class="w-full h-full flex flex-col justify-center items-center text-center">
-      <div class="h-screen w-8/12 flex flex-col items-center">
+  <div
+    class="w-full h-full flex flex-col justify-center items-center text-center"
+  >
+    <div class="h-screen w-8/12 flex flex-col items-center">
       <h1 class="vhs text-3xl">Vincent Reed</h1>
       <h3 class="vhs text-2xl">Head of Shredding Scythe Productions</h3>
-      <img class="w-8/12 mt-36" src={BackgroundMedia} alt="Background media"/>  
+      <img
+        class="sm:w-96 md:w-8/12 mt-40"
+        src={BackgroundMedia}
+        alt="Background media"
+      />
     </div>
 
     <div class="h-screen w-8/12 flex flex-col items-center">
@@ -21,8 +27,5 @@
       <h2 class="vhs text-3xl">Experience</h2>
       <p class="vhs text-lg">-</p>
     </div>
-
-    
-
   </div>
 </main>
