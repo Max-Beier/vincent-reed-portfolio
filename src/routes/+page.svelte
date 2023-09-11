@@ -17,7 +17,9 @@
       </div>
 
       <!-- svelte-ignore a11y-media-has-caption -->
-      <video class="h-full w-full" src={Video} autoplay loop />
+      <video class="h-full w-full" autoplay loop>
+        <source src={Video} type="video/mp4" />
+      </video>
     </div>
 
     <div class="h-screen w-8/12 flex flex-col items-center">
