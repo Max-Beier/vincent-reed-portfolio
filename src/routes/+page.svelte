@@ -11,9 +11,8 @@
     class="w-full h-full flex flex-col justify-center items-center text-center"
   >
     <div class="h-screen w-screen flex flex-col justify-center items-center">
-      <div class="absolute w-full">
-        <h1 class="vhs text-6xl mt-5">Vincent Reed</h1>
-        <h3 class="vhs text-4xl">Head of Shredding Scythe Productions</h3>
+      <div class="absolute">
+        <h1 class="vhs text-6xl m-5">Vincent Reed</h1>
       </div>
 
       <!-- svelte-ignore a11y-media-has-caption -->
