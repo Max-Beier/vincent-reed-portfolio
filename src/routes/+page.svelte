@@ -12,7 +12,7 @@
   >
     <div class="h-screen w-screen flex flex-col justify-center items-center">
       <div class="absolute w-full">
-        <h1 class="vhs text-7xl mt-5">Vincent Reed</h1>
+        <h1 class="vhs text-6xl mt-5">Vincent Reed</h1>
         <h3 class="vhs text-4xl">Head of Shredding Scythe Productions</h3>
       </div>
 
