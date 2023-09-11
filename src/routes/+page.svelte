@@ -17,7 +17,7 @@
       </div>
 
       <!-- svelte-ignore a11y-media-has-caption -->
-      <video class="h-full w-full" autoplay loop>
+      <video class="h-full w-full" autoplay muted loop>
         <source src={Video} type="video/mp4" />
       </video>
     </div>
