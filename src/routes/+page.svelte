@@ -12,7 +12,7 @@
   >
     <div class="h-screen w-screen flex flex-col justify-center items-center">
       <div class="absolute">
-        <h1 class="vhs text-6xl m-5">Vincent Reed</h1>
+        <h1 class="vhs text-9xl m-5">Vincent Reed</h1>
       </div>
 
       <!-- svelte-ignore a11y-media-has-caption -->

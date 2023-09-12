@@ -11,7 +11,7 @@
 
 :root {
     --background: #000000;
-    --white: #d1d1d1
+    --white: #FFFFFF
 }
 
 body {
@@ -44,19 +44,13 @@ body {
     background: purple;
   }
 
-  *::-webkit-media-controls-panel {
-    display: none!important;
-    -webkit-appearance: none;
-  }
-  
-  *::--webkit-media-controls-play-button {
-    display: none!important;
-    -webkit-appearance: none;
-  }
-  
   *::-webkit-media-controls-start-playback-button {
     display: none!important;
     -webkit-appearance: none;
+  }
+
+  video::-webkit-media-controls {
+    opacity: 0;
   }
 
   .vhs {
