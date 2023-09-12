@@ -1,5 +1,10 @@
 <script lang="ts">
   import Video from "$lib/media/homevideo.mp4";
+
+  const video = document.getElementById("backgroundVideo");
+
+  video?.addEventListener("suspend", () => {});
+  video?.addEventListener("play", () => {});
 </script>
 
 <svelte:head>
@@ -19,6 +24,7 @@
 
       <!-- svelte-ignore a11y-media-has-caption -->
       <video
+        id="backgroundVideo"
         class="h-full w-full pointer-events-none"
         autoplay
         playsinline
