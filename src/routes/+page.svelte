@@ -2,8 +2,8 @@
   import Video from "$lib/media/homevideo.mp4";
 
   const video = document.getElementById("backgroundVideo");
-  video!.addEventListener("suspend", () => {});
-  video!.addEventListener("play", () => {});
+  video?.addEventListener("suspend", () => {});
+  video?.addEventListener("play", () => {});
 </script>
 
 <svelte:head>
