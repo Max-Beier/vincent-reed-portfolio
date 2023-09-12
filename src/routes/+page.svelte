@@ -1,12 +1,9 @@
 <script lang="ts">
   import Video from "$lib/media/homevideo.mp4";
-  import { onMount } from "svelte";
 
-  onMount(() => {
-    const video = document.getElementById("backgroundVideo");
-    video!.addEventListener("suspend", () => {});
-    video!.addEventListener("play", () => {});
-  });
+  const video = document.getElementById("backgroundVideo");
+  video!.addEventListener("suspend", () => {});
+  video!.addEventListener("play", () => {});
 </script>
 
 <svelte:head>
