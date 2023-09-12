@@ -25,9 +25,48 @@
 
     <div class="h-screen w-8/12 flex flex-col items-center">
       <h2 class="vhs text-3xl mt-5">About Me</h2>
-      <p class="vhs text-lg">-</p>
+      <p class="vhs text-left">
+        My names Vincent Reed, I'm a Media Production student at London South
+        Bank University, I'm studying to become a cameraman for TV, Film, Music
+        Videos and Live events like concerts.
+      </p>
+      <br />
       <h2 class="vhs text-3xl">Experience</h2>
-      <p class="vhs text-lg">-</p>
+      <div class="vhs text-left">
+        <h3 class="text-xl">July 2019</h3>
+        <p>
+          Joined award-winning director Jo Southwell as a runner on a
+          production, involving early mornings, equipment handling, and working
+          with new people. The charity video "Two Hours" was co-produced with
+          The Media Trust, Screen South, and Aston, and it was nominated for
+          various awards.
+        </p>
+        <br />
+        <h3 class="text-xl">December 2019</h3>
+        <p>
+          Worked at a local radio station called "Marlow FM" in Berkshire for
+          two weeks. Responsibilities included being on air with presenters and
+          producing own segments for broadcast.
+        </p>
+        <br />
+        <h3 class="text-xl">September-October 2021</h3>
+        <p>
+          Started studying Media Production at London South Bank University. As
+          part of the course, helped set up and move various equipment for a
+          news broadcast that aired every Friday on the JLDN YouTube channel.
+          Also created a short documentary and used Adobe Premiere for editing.
+        </p>
+        <br />
+        <h3 class="text-xl">2022</h3>
+        <ul>
+          <li>Digga D - Noughty by Nature</li>
+          <li>Reaction party - Project SNS</li>
+          <li>
+            Shadowed a live BBC TV gallery during the Women's WSL Arsenal vs
+            Tottenham Hotspur match on May 4th
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </main>
