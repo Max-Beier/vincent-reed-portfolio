@@ -12,7 +12,9 @@
   >
     <div class="h-screen w-screen flex flex-col justify-center items-center">
       <div class="absolute">
-        <h1 class="vhs text-9xl m-5">Vincent Reed</h1>
+        <h1 class="vhs text-9xl uppercase m-5 mix-blend-difference">
+          Vincent Reed
+        </h1>
       </div>
 
       <!-- svelte-ignore a11y-media-has-caption -->
@@ -22,7 +24,7 @@
     </div>
 
     <div class="h-screen w-8/12 flex flex-col items-center">
-      <h2 class="vhs text-3xl mt-28">About Me</h2>
+      <h2 class="vhs text-3xl mt-5">About Me</h2>
       <p class="vhs text-lg">-</p>
       <h2 class="vhs text-3xl">Experience</h2>
       <p class="vhs text-lg" />
