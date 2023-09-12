@@ -1,5 +1,9 @@
 <script lang="ts">
+  // MEDIA
   import Video from "$lib/media/homevideo.mp4";
+  import YoutubeLogo from "$lib/icons/logo-social-media-youtube.svg";
+  import InstagramLogo from "$lib/icons/logo-social-media-instagram.svg";
+  import LinkedInLogo from "$lib/icons/logo-linkedin.svg";
 </script>
 
 <svelte:head>
@@ -37,9 +41,9 @@
       <div class="vhs text-left">
         <u class="text-xl">Me</u>
         <p>
-          My name is Vincent Reed, I'm a Media Production student at London South
-          Bank University, I'm studying to become a cameraman for TV, Film,
-          Music Videos and Live events like concerts.
+          My name is Vincent Reed, I'm a Media Production student at London
+          South Bank University, I'm studying to become a cameraman for TV,
+          Film, Music Videos and Live events like concerts.
         </p>
         <br />
 
@@ -59,7 +63,9 @@
           and Photoshop.
         </p>
       </div>
+    </div>
 
+    <div class="h-screen w-8/12 flex flex-col items-center">
       <h2 class="vhs text-3xl mt-12">Experience</h2>
       <div class="vhs text-left">
         <u class="text-xl">July 2019</u>
@@ -99,6 +105,28 @@
           </li>
         </ul>
       </div>
+
+      <h2 class="vhs text-3xl mt-12 mb-20">Contact</h2>
+      <div class="vhs flex flex-row justify-center gap-10">
+        <a
+          href="https://youtube.com/@shreddingscytheproductions5987?si=VJc72fMwpwU5XPfi"
+        >
+          <p>YouTube</p>
+        </a>
+        <a href="https://www.instagram.com/shreddingscythe.productions">
+          <p>Instagram</p>
+        </a>
+        <a href="https://www.linkedin.com/in/vinnie-reed-613b26168/">
+          <p>LinkedIn</p>
+        </a>
+      </div>
+      <!--
+      <p class="vhs">Website by</p>
+      //-->
+
+      <p class="vhs mt-48">
+        Copyright (c) {new Date().getFullYear()}
+      </p>
     </div>
   </div>
 </main>
