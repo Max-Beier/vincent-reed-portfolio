@@ -25,7 +25,9 @@
 
     <div class="h-screen w-8/12 flex flex-col items-center">
       <h2 class="vhs text-3xl mt-12">About Me</h2>
+
       <div class="vhs text-left">
+        <u class="text-xl">Me</u>
         <p>
           My names Vincent Reed, I'm a Media Production student at London South
           Bank University, I'm studying to become a cameraman for TV, Film,
@@ -33,7 +35,7 @@
         </p>
         <br />
 
-        <h3 class="text-xl">Academic Experience</h3>
+        <u class="text-xl">Academic Experience</u>
         <ul>
           <li>
             Level 3 Media production Merit Merit - BCA (Berkshire College of
@@ -43,7 +45,7 @@
         </ul>
         <br />
 
-        <h3 class="text-xl">Toolset</h3>
+        <u class="text-xl">Toolset</u>
         <p>
           I have a great understanding of Adobe editing softwares like Premiere
           and Photoshop.
@@ -52,7 +54,7 @@
 
       <h2 class="vhs text-3xl mt-12">Experience</h2>
       <div class="vhs text-left">
-        <h3 class="text-xl">July 2019</h3>
+        <u class="text-xl">July 2019</u>
         <p>
           Joined award-winning director Jo Southwell as a runner on a
           production, involving early mornings, equipment handling, and working
@@ -62,7 +64,7 @@
         </p>
         <br />
 
-        <h3 class="text-xl">December 2019</h3>
+        <u class="text-xl">December 2019</u>
         <p>
           Worked at a local radio station called "Marlow FM" in Berkshire for
           two weeks. Responsibilities included being on air with presenters and
@@ -70,7 +72,7 @@
         </p>
 
         <br />
-        <h3 class="text-xl">September-October 2021</h3>
+        <u class="text-xl">September-October 2021</u>
         <p>
           Started studying Media Production at London South Bank University. As
           part of the course, helped set up and move various equipment for a
@@ -79,7 +81,7 @@
         </p>
         <br />
 
-        <h3 class="text-xl">2022</h3>
+        <u class="text-xl">2022</u>
         <ul>
           <li>Digga D - Noughty by Nature</li>
           <li>Reaction party - Project SNS</li>
