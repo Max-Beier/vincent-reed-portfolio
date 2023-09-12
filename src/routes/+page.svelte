@@ -24,14 +24,33 @@
     </div>
 
     <div class="h-screen w-8/12 flex flex-col items-center">
-      <h2 class="vhs text-3xl mt-5">About Me</h2>
-      <p class="vhs text-left">
-        My names Vincent Reed, I'm a Media Production student at London South
-        Bank University, I'm studying to become a cameraman for TV, Film, Music
-        Videos and Live events like concerts.
-      </p>
-      <br />
-      <h2 class="vhs text-3xl">Experience</h2>
+      <h2 class="vhs text-3xl mt-12">About Me</h2>
+      <div class="vhs text-left">
+        <p>
+          My names Vincent Reed, I'm a Media Production student at London South
+          Bank University, I'm studying to become a cameraman for TV, Film,
+          Music Videos and Live events like concerts.
+        </p>
+        <br />
+
+        <h3 class="text-xl">Academic Experience</h3>
+        <ul>
+          <li>
+            Level 3 Media production Merit Merit - BCA (Berkshire College of
+            Agriculture)
+          </li>
+          <li>Media Production - London South Bank University</li>
+        </ul>
+        <br />
+
+        <h3 class="text-xl">Toolset</h3>
+        <p>
+          I have a great understanding of Adobe editing softwares like Premiere
+          and Photoshop.
+        </p>
+      </div>
+
+      <h2 class="vhs text-3xl mt-12">Experience</h2>
       <div class="vhs text-left">
         <h3 class="text-xl">July 2019</h3>
         <p>
@@ -42,12 +61,14 @@
           various awards.
         </p>
         <br />
+
         <h3 class="text-xl">December 2019</h3>
         <p>
           Worked at a local radio station called "Marlow FM" in Berkshire for
           two weeks. Responsibilities included being on air with presenters and
           producing own segments for broadcast.
         </p>
+
         <br />
         <h3 class="text-xl">September-October 2021</h3>
         <p>
@@ -57,6 +78,7 @@
           Also created a short documentary and used Adobe Premiere for editing.
         </p>
         <br />
+
         <h3 class="text-xl">2022</h3>
         <ul>
           <li>Digga D - Noughty by Nature</li>
