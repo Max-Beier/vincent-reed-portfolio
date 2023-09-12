@@ -19,7 +19,7 @@
 
       <!-- svelte-ignore a11y-media-has-caption -->
       <video
-        class="h-full w-full"
+        class="h-full w-full pointer-events-none"
         autoplay
         playsinline
         muted
