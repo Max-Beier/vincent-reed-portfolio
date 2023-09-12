@@ -12,7 +12,7 @@
   >
     <div class="h-screen w-screen flex flex-col justify-center items-center">
       <div class="absolute">
-        <h1 class="vhs text-9xl uppercase m-5 mix-blend-difference">
+        <h1 class="vhs md:text-8xl text-6xl uppercase m-5 mix-blend-difference">
           Vincent Reed
         </h1>
       </div>
