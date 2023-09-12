@@ -1,9 +1,6 @@
 <script lang="ts">
   // MEDIA
   import Video from "$lib/media/homevideo.mp4";
-  import YoutubeLogo from "$lib/icons/logo-social-media-youtube.svg";
-  import InstagramLogo from "$lib/icons/logo-social-media-instagram.svg";
-  import LinkedInLogo from "$lib/icons/logo-linkedin.svg";
 </script>
 
 <svelte:head>
