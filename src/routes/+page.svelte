@@ -37,7 +37,7 @@
       <div class="vhs text-left">
         <u class="text-xl">Me</u>
         <p>
-          My names Vincent Reed, I'm a Media Production student at London South
+          My name is Vincent Reed, I'm a Media Production student at London South
           Bank University, I'm studying to become a cameraman for TV, Film,
           Music Videos and Live events like concerts.
         </p>
