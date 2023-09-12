@@ -27,7 +27,7 @@
       <h2 class="vhs text-3xl mt-5">About Me</h2>
       <p class="vhs text-lg">-</p>
       <h2 class="vhs text-3xl">Experience</h2>
-      <p class="vhs text-lg" />
+      <p class="vhs text-lg">-</p>
     </div>
   </div>
 </main>
