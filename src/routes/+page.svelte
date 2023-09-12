@@ -21,10 +21,10 @@
       <video
         class="h-full w-full"
         autoplay
+        playsinline
         muted
         loop
-        data-wf-ignore="true"
-        data-object-fit="cover"
+        preload="true"
       >
         <source src={Video} type="video/mp4" />
       </video>
