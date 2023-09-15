@@ -105,18 +105,28 @@
         </ul>
       </div>
 
-      <h2 class="vhs text-3xl mt-12 mb-20">Contact</h2>
+      <h2 class="vhs text-3xl mt-12 mb-48">Contact</h2>
       <div class="vhs flex flex-row justify-center gap-10">
         <a
           href="https://youtube.com/@shreddingscytheproductions5987?si=VJc72fMwpwU5XPfi"
+          target="_blank"
         >
           <p>YouTube</p>
         </a>
-        <a href="https://www.instagram.com/shreddingscythe.productions">
+        <a
+          href="https://www.instagram.com/shreddingscythe.productions"
+          target="_blank"
+        >
           <p>Instagram</p>
         </a>
-        <a href="https://www.linkedin.com/in/vinnie-reed-613b26168/">
+        <a
+          href="https://www.linkedin.com/in/vinnie-reed-613b26168/"
+          target="_blank"
+        >
           <p>LinkedIn</p>
+        </a>
+        <a href="mailto:shreddingscytheproductions@yahoo.com">
+          <p>Mail</p>
         </a>
       </div>
       <!--
@@ -129,3 +139,9 @@
     </div>
   </div>
 </main>
+
+<style>
+  a:hover {
+    color: yellow;
+  }
+</style>
