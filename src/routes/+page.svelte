@@ -7,23 +7,14 @@
   <title>Vincent Reed</title>
 </svelte:head>
 
-<main class="flex flex-col items-center">
-  <div
-    class="w-full h-full flex flex-col justify-center items-center text-center"
-  >
-    <div class="h-screen w-screen flex flex-col justify-center items-center">
-      <div class="absolute">
-        <h1
-          class="vhs md:text-8xl text-6xl uppercase m-5 mix-blend-difference transform-gpu"
-        >
-          Vincent Reed
-        </h1>
-      </div>
 
+  <main
+    class="w-full h-full flex flex-col justify-center items-center text-center snap-y"
+  >
+    <div class="h-screen flex flex-col justify-center items-center snap-center">
       <!-- svelte-ignore a11y-media-has-caption -->
       <video
-        id="backgroundVideo"
-        class="h-full w-full pointer-events-none"
+        class="pointer-events-none h-screen w-screen"
         autoplay
         playsinline
         muted
@@ -32,9 +23,19 @@
       >
         <source src={Video} type="video/mp4" />
       </video>
+
+      <div class="absolute">
+        <h1
+          class="vhs md:text-8xl text-6xl uppercase m-5 mix-blend-difference transform-gpu"
+        >
+          Vincent Reed
+        </h1>
+      </div>
+
+
     </div>
 
-    <div class="h-screen w-8/12 flex flex-col items-center">
+    <div class="h-screen w-8/12 flex flex-col items-center snap-center">
       <h2 class="vhs text-3xl mt-12">About Me</h2>
 
       <div class="vhs text-left">
@@ -64,7 +65,7 @@
       </div>
     </div>
 
-    <div class="h-screen w-8/12 flex flex-col items-center">
+    <div class="h-screen w-8/12 flex flex-col items-center snap-center">
       <h2 class="vhs text-3xl mt-12">Experience</h2>
       <div class="vhs text-left">
         <u class="text-xl">July 2019</u>
@@ -106,7 +107,7 @@
       </div>
 
       <h2 class="vhs text-3xl mt-12 mb-48">Contact</h2>
-      <div class="vhs flex flex-row justify-center gap-10">
+      <div class="vhs flex text-4xl flex-row justify-center gap-10">
         <a
           href="https://youtube.com/@shreddingscytheproductions5987?si=VJc72fMwpwU5XPfi"
           target="_blank"
@@ -137,7 +138,6 @@
         Copyright (c) {new Date().getFullYear()}
       </p>
     </div>
-  </div>
 </main>
 
 <style>
