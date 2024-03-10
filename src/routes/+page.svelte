@@ -175,6 +175,7 @@
 
 <style>
   a {
+    text-align: left;
   }
   a:hover {
     color: yellow;
