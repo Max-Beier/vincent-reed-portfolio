@@ -163,13 +163,13 @@
         <u>Mail</u>
       </a>
     </div>
-    <!--
-      <p class="vhs">Website by</p>
-      //-->
 
-    <p class="vhs bottom-0 mt-32">
-      Copyright (c) {new Date().getFullYear()}
-    </p>
+    <div class="flex flex-col vhs bottom-0 mt-32">
+      <p>
+        Copyright (c) {new Date().getFullYear()} - Website by
+        <a href="https://maxbeier.dev" target="_blank"><u>Max Beier</u></a>
+      </p>
+    </div>
   </div>
 </main>
 
