@@ -154,7 +154,7 @@
         <u>Instagram</u>
       </a>
       <a
-        href="https://www.linkedin.com/in/vinnie-reed-613b26168/"
+        href="https://www.linkedin.com/in/vincent-reed-613b26168/"
         target="_blank"
       >
         <u>LinkedIn</u>
