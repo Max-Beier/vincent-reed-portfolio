@@ -9,6 +9,8 @@
 * [PostCSS](https://postcss.org/)
 * [Tailwindcss](https://tailwindcss.com/)
 
+Powered by [Vercel](https://vercel.com/)
+
 ## Install
 ```sh
 npm i
